@@ -1,4 +1,7 @@
 # React Client Project Template
+[![Build Status](https://travis-ci.org/thomasLevans/react_client_template.svg?branch=master)](https://travis-ci.org/thomasLevans/react_client_template)
+[![Dependency Status](https://david-dm.org/thomasLevans/react_client_template.svg)](https://david-dm.org/thomasLevans/react_client_template)
+[![devDependency Status](https://david-dm.org/thomasLevans/react_client_template/dev-status.svg)](https://david-dm.org/thomasLevans/react_client_template#info=devDependencies)
 This is a barebones template I have derived from my experience with building and testing React projects. It is by no means perfect or final but serves as a patterned approach for those new to React.
 
 
