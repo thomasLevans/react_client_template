@@ -2,21 +2,30 @@
 [![Build Status](https://travis-ci.org/thomasLevans/react_client_template.svg?branch=master)](https://travis-ci.org/thomasLevans/react_client_template)
 [![Dependency Status](https://david-dm.org/thomasLevans/react_client_template.svg)](https://david-dm.org/thomasLevans/react_client_template)
 [![devDependency Status](https://david-dm.org/thomasLevans/react_client_template/dev-status.svg)](https://david-dm.org/thomasLevans/react_client_template#info=devDependencies)
+
+
 This is a barebones template I have derived from my experience with building and testing React projects. It is by no means perfect or final but serves as a patterned approach for those new to React.
 
 
 ## Project Commands
 Run Test (single run):
-`$ npm run test`
-
+```
+$ npm run test
+```
 Run Test (on file changes):
-`$ npm run test:watch`
+```
+$ npm run test:watch
+```
 
 Run Application via Webpack's Dev Server:
-`$ npm start`
+```
+$ npm start
+```
 
 Bundle and minify Application:
-`$ npm run deploy`
+```
+$ npm run deploy
+```
 
 ## Adding to the Project
 Feel like you can improve this template? Simply open a pull requests with changes!
