@@ -90,7 +90,7 @@ About these files:
 
 __NOTE:__
 - Be sure to read up deciding whether a component has state or should be
- stateless. See (this)[https://facebook.github.io/react/docs/interactivity-and-dynamic-uis.html] if you are unclear.
+ stateless. See [this](https://facebook.github.io/react/docs/interactivity-and-dynamic-uis.html) if you are unclear.
 - __ALL COMPONENTS MUST BE PURE!__
 - Use `React.createClass()` to define components as opposed to an ES6 class that
 `extends React.Component`, there is a difference.
@@ -113,8 +113,8 @@ export function(parameters) {
 }
 ```
 __NOTE:__
-- For a detailed explanation of actions and creators see (this)[http://redux.js.org/docs/basics/Actions.html]
-- For more on the behavior of the spread operator `...` see (this)[http://redux.js.org/docs/recipes/UsingObjectSpreadOperator.html]
+- For a detailed explanation of actions and creators see [this](http://redux.js.org/docs/basics/Actions.html)
+- For more on the behavior of the spread operator `...` see [this](http://redux.js.org/docs/recipes/UsingObjectSpreadOperator.html)
 
 
 #### /reducers Dir
@@ -123,7 +123,7 @@ defining modules. Just like the state of the application is a tree data structur
 the functions that 'reduce' an action to a change in the application's state form
 a tree. Thus this directory is a module where the root reducer function is defined
 and exported in index.js while all the child reducers appear in named scripts. If
-you read (this)[http://redux.js.org/docs/basics/Reducers.html] you will note that
+you read [this](http://redux.js.org/docs/basics/Reducers.html) you will note that
 Redux gives use the `combineReducers` function which should map the root reducer
 for us implicitly. However for the sake of E2E testing we will maintain our own
 root reducer, after all writing and testing reducers is the easiest part! The reducer
